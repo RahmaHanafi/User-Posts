@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(180, 180, 180, 0.523);
+}
+
+h2 {
+  text-align: center;
+  color: rgba(11, 131, 171);
+}
+
+.divBoby {
+  display: flex;
+}
+
+.spanCell {
+  padding: 10px;
+  background-color: rgb(11, 171, 171);
+  color: white;
+  box-shadow: 5px 3px 2px rgba(11, 171, 171, 0.406);
+  margin: 5px;
+  width: 200px;
+}
+
+.Active {
+  background-color: rgba(11, 131, 171);
+  box-shadow: 5px 3px 2px rgb(11, 131, 171, 0.546);
+}
+
+.spanCell:hover {
+  padding: 10px;
+  background-color: rgb(11, 171, 110);
+  box-shadow: 5px 3px 2px rgba(11, 171, 110, 0.518);
+}
+
+.userDiv {
+  padding: 20px;
+}
+
+.postsDiv {
+  font-size: 22px;
+  padding: 40px;
+  margin-top: 25px;
+  color: white;
+  display: none;
+}
